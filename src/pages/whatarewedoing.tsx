@@ -3,6 +3,7 @@ import { MainLayout } from 'layout'
 import { Yellow } from 'components'
 import { handleIcon } from 'utils'
 import { PADDINGX } from 'constants/layout'
+import { Emphasis } from 'components'
 const WhatWeDoing = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const WhatWeDoing = () => {
               headerEl={handleIcon({ icon: 'nav', size: 30 })}
             />
           </div>
+          
         </div>
       </MainLayout>
     </>
